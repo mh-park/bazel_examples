@@ -10,6 +10,6 @@ go_test(
 go_library(
     name = "go_default_library",
     srcs = ["bar.go"],
-    importpath = "github.com/linzhp/bazel_examples/cover/bar",
+    importpath = "github.com/minho.park/bazel_examples/cover/bar",
     visibility = ["//visibility:public"],
 )

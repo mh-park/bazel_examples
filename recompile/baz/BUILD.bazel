@@ -5,6 +5,6 @@ go_library(
     srcs = ["baz.go"],
     cdeps = ["@icu4c//:icu4c"],
     cgo = True,
-    importpath = "github.com/linzhp/bazel_examples/recompile/baz",
+    importpath = "github.com/minho.park/bazel_examples/recompile/baz",
     visibility = ["//visibility:public"],
 )

@@ -1,4 +1,4 @@
-# gazelle:prefix github.com/linzhp/bazel_examples
+# gazelle:prefix github.com/minho.park/bazel_examples
 
 load("@bazel_gazelle//:def.bzl", "gazelle")
 load("@io_bazel_rules_go//go:def.bzl", "nogo")

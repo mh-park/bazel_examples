@@ -1,3 +1,3 @@
 package imports
 
-import _ "github.com/linzhp/bazel_examples/imports/testutils"
+import _ "github.com/minho.park/bazel_examples/imports/testutils"

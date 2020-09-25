@@ -1,6 +1,6 @@
 package bar
 
 import (
-	_ "github.com/linzhp/bazel_examples/recompile"
-	_ "github.com/linzhp/bazel_examples/recompile/baz"
+	_ "github.com/minho.park/bazel_examples/recompile"
+	_ "github.com/minho.park/bazel_examples/recompile/baz"
 )

@@ -4,7 +4,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "go_default_library",
     srcs = ["client.go"],
-    importpath = "github.com/linzhp/bazel_examples/gomock",
+    importpath = "github.com/minho.park/bazel_examples/gomock",
     visibility = ["//visibility:public"],
     deps = [
         "@bazel_gazelle//cmd/gazelle:go_default_library",
