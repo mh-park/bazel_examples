@@ -5,6 +5,7 @@ go_library(
     srcs = ["client.go"],
     importpath = "github.com/minho.park/bazel_examples/imports",
     visibility = ["//visibility:public"],
+    deps = ["//imports/testutils:go_default_library"],
 )
 
 go_test(
